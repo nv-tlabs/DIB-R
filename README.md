@@ -15,7 +15,7 @@ This is the official inference code for:
 
 This code requires PyTorch 1.1.0 and python 3+. Please install dependencies by
 ```bash
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 
 ### Compile the DIB-Render
