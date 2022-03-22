@@ -8,10 +8,13 @@ This is the official inference code for:
 
 **[[Paper](https://arxiv.org/abs/1908.01210)]  [[Project Page](https://nv-tlabs.github.io/DIB-R/)]**
 
+
+**Note**: key functions from this work have also been ported to [Kaolin Library](https://github.com/NVIDIAGameWorks/kaolin), where they continue to be maintained. See [this example repo](https://github.com/nv-tlabs/DIB-R-Single-Image-3D-Reconstruction), as well as [this tutorial](https://github.com/NVIDIAGameWorks/kaolin/blob/master/examples/tutorial/dibr_tutorial.ipynb). Please cite our paper regardless of the implementation you end up using for your research.  
+
 ## Usage
 
 
-#### Install dependencies
+### Install dependencies
 
 This code requires PyTorch 1.1.0 and python 3+. Please install dependencies by
 ```bash
@@ -25,7 +28,7 @@ python build.py install
 ```
 
 
-#### Inference
+### Inference
 ``` bash
 python test-all.py \
  --g_model_dir ./checkpoints/g_model.pth \
